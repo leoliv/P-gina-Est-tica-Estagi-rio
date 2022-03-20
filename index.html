@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto estagiário</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -40,21 +37,11 @@
             <form action="">
               <div>
                 <label>From</label>
-                <input
-                  type="text"
-                  name="from"
-                  id="from"
-                  placeholder="Departing from"
-                />
+                <input type="text" name="from" id="from" placeholder="Departing from" />
               </div>
               <div>
                 <label>To</label>
-                <input
-                  type="text"
-                  name="to"
-                  id="to"
-                  placeholder="Arriving at"
-                />
+                <input type="text" name="to" id="to" placeholder="Arriving at" />
               </div>
             </form>
             <button type="submit">Search end find dates</button>
@@ -63,33 +50,37 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="container-offers">
         <h3>Good offers Right Now</h3>
         <p>Up to <strong>50%</strong> discount.</p>
-        <div>
-          <figure>
-            <img src="./img/cinqueterre.jpg" alt="cinqueterre" />
-            <figcaption>Cinque Terre</figcaption>
-          </figure>
-          <figure>
-            <img src="./img/newyork.jpg" alt="newyork" />
-            <figcaption>New York</figcaption>
-          </figure>
-          <figure>
-            <img src="./img/sanfran.jpg" alt="sanfran" />
-            <figcaption>San Francisco</figcaption>
-          </figure>
-          <figure>
-            <img src="./img/pisa.jpg" alt="pisa" />
-            <figcaption>Pisa</figcaption>
-          </figure>
-          <figure>
-            <img src="./img/paris.jpg" alt="paris" />
-            <figcaption>Paris</figcaption>
-          </figure>
+        <div id="container-figure">
+          <div class="container-img">
+            <figure id="main-figure">
+              <img src="./img/cinqueterre.jpg" alt="cinqueterre" />
+              <figcaption>Cinque Terre</figcaption>
+            </figure>
+          </div>
+          <div class="container-img">
+            <figure class="other-figure">
+              <img src="./img/newyork.jpg" alt="newyork" />
+              <figcaption>New York</figcaption>
+            </figure>
+            <figure class="other-figure">
+              <img src="./img/sanfran.jpg" alt="sanfran" />
+              <figcaption>San Francisco</figcaption>
+            </figure>
+            <figure class="other-figure">
+              <img src="./img/pisa.jpg" alt="pisa" />
+              <figcaption>Pisa</figcaption>
+            </figure>
+            <figure class="other-figure">
+              <img src="./img/paris.jpg" alt="paris" />
+              <figcaption>Paris</figcaption>
+            </figure>
+          </div>
         </div>
       </section>
-      <section>
+      <section class="container-nature">
         <h3>Explorer Nature</h3>
         <p>Travel with us and see nature at its finest</p>
         <article>
@@ -115,12 +106,7 @@
         <h2>Get the best offers first!</h2>
         <p>Join our newsletter.</p>
         <form action="">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Your Email address"
-          />
+          <input type="email" name="email" id="email" placeholder="Your Email address" />
           <button type="submit">Subscribe</button>
         </form>
       </section>
@@ -139,23 +125,9 @@
           </div>
         </div>
         <form action="">
-          <input
-            type="text"
-            name="your-name"
-            id="your-name"
-            placeholder="Name"
-          />
-          <input
-            type="email"
-            name="your-email"
-            id="your-email"
-            placeholder="Email"
-          />
-          <textarea
-            name="message"
-            id="message"
-            placeholder="Message"
-          ></textarea>
+          <input type="text" name="your-name" id="your-name" placeholder="Name" />
+          <input type="email" name="your-email" id="your-email" placeholder="Email" />
+          <textarea name="message" id="message" placeholder="Message"></textarea>
           <button type="submit">SEND MESSAGE</button>
         </form>
       </section>
